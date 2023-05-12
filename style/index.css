@@ -1,1 +1,127 @@
 /* CSS stillerinizi buraya girin */
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+    max-width: 900px;
+    margin: 0 auto;
+}
+header {
+  background-color: honeydew;
+  color: black;
+  padding: 20px 0 90px 0;
+}
+h1 {
+  margin-left: 10%;
+}
+
+nav {
+  margin-left: 10%;
+
+}
+
+.buton {
+    background-color: black;
+    color: white;
+    display: inline-block;
+    text-align: center;
+    padding: 20px;
+    font-size: 15px;
+    text-decoration: none;
+    transition-duration: 0.5s;
+    
+  }
+
+  button a {
+    color: black;
+    text-decoration: none;
+    transition-duration: 0.5s; 
+  }
+  .proje {
+    padding: 20px 40px;
+  }
+  .container {
+    margin: 20px 0 20px 0;
+  
+  }
+  .des-img {
+    
+  }
+  .description {
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    
+
+  }
+
+ .texts {
+  margin-left: 3%;
+  max-width: 50%;
+ }
+
+.projects {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}  
+
+ .project {
+  text-align: center;
+  margin: 0 0.5rem 0 0.5rem;
+  
+ } 
+ .project a {
+  text-decoration: none;
+  color: red;
+
+ }
+
+  footer {
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .footer-text {
+    text-align: center;
+    color: white;
+
+  }
+  .foot{
+    padding: 15px 40px;
+    margin-top: 1rem;
+  }
+  .footer-text p {
+    margin: 0 auto;
+  }
+  .social-icon {
+    width: 2rem;
+  }
+ 
+  @media (max-width: 3000px) {
+    .container {
+      width: 900px;
+      margin: 1rem auto;
+    }
+  }
+
+  @media (max-width: 1024px) {
+    .container {
+      width: auto;
+      margin: 1rem 10%;
+    }
+  }
+
+  @media (max-width: 600px) {
+    .container {
+      width: auto;
+      margin: 1rem 1rem;
+    }
+  }
